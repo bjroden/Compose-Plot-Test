@@ -27,6 +27,7 @@ kotlin {
         val jvmMain by getting {
             dependencies {
                 implementation(compose.desktop.currentOs)
+                implementation("org.knowm.xchart:xchart:3.8.1")
             }
         }
         val jvmTest by getting
